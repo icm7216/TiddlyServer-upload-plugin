@@ -5,7 +5,7 @@
 |''Version''|1.0.0|
 |''date''|Jul 19, 2017|
 |''Requires''|[[Arlen22/TiddlyServer|https://github.com/Arlen22/TiddlyServer]]|
-|''Source:''|TiddlyServerUploadPlugin.js|
+|''Source:''|[[icm7216/TiddlyServer-upload-plugin|https://github.com/icm7216/TiddlyServer-upload-plugin/blob/master/TiddlyServerUploadPlugin.js]]|
 |''License''|[[MIT|https://opensource.org/licenses/MIT]]|
 |''~CoreVersion''|2.8.1|
 
