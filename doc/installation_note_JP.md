@@ -1,9 +1,9 @@
 # TiddlyServerインストールメモ
 
-現在（Jul 19, 2017）の最新版 TiddlyServer-2.0.6 、及び TiddlyServer upload plugin のインストール手順を簡単に纏めました。  
-使用環境は Windows 10 64bit,  Firefox Developer Edition 55.0b10 (64bit), TiddlyWiki Classic 2.8.1, Node.js 6.11.0 (x64) です。
+現在（Jul 19, 2017）の最新版 TiddlyServer-2.0.6 、及び TiddlyServer upload plugin のインストール手順を簡単に纏めました。
 
-また、 TiddlyServer のインストール詳細は[TiddlyServer/README.md at master · Arlen22/TiddlyServer](https://github.com/Arlen22/TiddlyServer/blob/master/README.md)を参照してください。
+*   使用環境は Windows 10 64bit,  Firefox Developer Edition 55.0b10 (64bit), TiddlyWiki Classic 2.8.1, Node.js 6.11.0 (x64)です。
+*   TiddlyServer のインストール詳細は[TiddlyServer/README.md at master · Arlen22/TiddlyServer](https://github.com/Arlen22/TiddlyServer/blob/master/README.md)を参照してください。
 
 ## TiddlyServerとは
 
