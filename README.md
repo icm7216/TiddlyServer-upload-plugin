@@ -31,7 +31,7 @@ Automatically unchecked after plugin installation.
 ```
 
 
-## pulugin Options 
+## plugin Options 
 
 Upload to TiddlyServer if enabled.  
 Automatically checked after plugin installation.
