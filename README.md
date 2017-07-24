@@ -38,6 +38,13 @@ Automatically checked after plugin installation.
 *   plugin's checkbox: `chkEnableUpload`
 
 
+
+## appendix
+
+[TiddlyServer installation notes (write in Japanese)](https://github.com/icm7216/TiddlyServer-upload-plugin/blob/master/doc/installation_note_JP.md)
+*   In summary, Installation and settings of TiddlyServer. How to install and use the plugin.
+
+
 ## License
 
 MIT
