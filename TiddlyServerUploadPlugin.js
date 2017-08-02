@@ -2,7 +2,7 @@
 |''Name''|TiddlyServer upload plugin|
 |''Description''|Upload TWC file to TiddlyServer |
 |''Author''|icm7216|
-|''Version''|1.0.0|
+|''Version''|1.0.1|
 |''date''|Jul 19, 2017|
 |''Requires''|[[Arlen22/TiddlyServer|https://github.com/Arlen22/TiddlyServer]]|
 |''Source:''|[[icm7216/TiddlyServer-upload-plugin|https://github.com/icm7216/TiddlyServer-upload-plugin/blob/master/TiddlyServerUploadPlugin.js]]|
