@@ -52,7 +52,7 @@ config.options.chkHttpReadOnly = false;
 function UploadToTiddlyServer(filePath, content) {
   if (config.options.chkEnableUpload) {
     config.saveByDownload = true;
-    var url = filePath.replace(/\\\\/, 'http://').replace(/\\/g, '/');
+    var url = encodeURI(filePath.replace(/\\\\/, 'http://').replace(/\\/g, '/'));
     var data = decodeURIComponent(escape(content));
     var xhr = new XMLHttpRequest();
     xhr.onload = () => {
