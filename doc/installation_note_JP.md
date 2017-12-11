@@ -1,10 +1,10 @@
 # TiddlyServerインストールメモ
 
-現在（Dec. 7, 2017）の最新版 TiddlyServer-2.0.9 、及び TiddlyServer upload plugin のインストール手順を簡単に纏めました。
+現在（Dec. 12, 2017）の最新版 TiddlyServer-2.0.11 、及び TiddlyServer upload plugin のインストール手順を簡単に纏めました。
 
 Firefox の Add-on SDK のサポートは Firefox 57 で廃止されました。これにより TiddlyFox の使用は不可能になります。その代替手段のひとつとして TiddlyServer upload plugin を使用することができます。
 
-*   使用環境は Windows 10 64bit,  Firefox Developer Edition 58.0b9 (64bit), TiddlyWiki Classic 2.8.1, Node.js 6.11.0 (x64)です。
+*   動作確認した環境は Windows 10 64bit,  Firefox Developer Edition 58.0b10 (64bit), TiddlyWiki Classic 2.8.1, Node.js 6.11.0 (x64)です。
 *   TiddlyServer の詳細については[TiddlyServer/README.md at master · Arlen22/TiddlyServer](https://github.com/Arlen22/TiddlyServer/blob/master/README.md)を参照してください。
 
 
@@ -32,8 +32,8 @@ TiddlyServer に対応していない TiddlyWiki Classic ファイルの自動�
 
 1.  [Node.js](https://nodejs.org/en/)をインストール。
 
-2.  [https://github.com/Arlen22/TiddlyServer/releases](https://github.com/Arlen22/TiddlyServer/releases) から [Source code (zip) ](https://github.com/Arlen22/TiddlyServer/archive/2.0.9.zip) をダウンロード後、任意のディレクトリに展開。  
-例: `C:\TWSVR\TiddlyServer-2.0.9`
+2.  [https://github.com/Arlen22/TiddlyServer/releases/latest](https://github.com/Arlen22/TiddlyServer/releases/latest) から最新版の [Source code (zip)](https://github.com/Arlen22/TiddlyServer/archive/2.0.11.zip) をダウンロード後、任意のディレクトリに展開。  
+例: `C:\TWSVR\TiddlyServer-2.0.11`
 
 3.  `example-settings-simple.json`をリネームして`settings.json`を作成。 TiddlyServer の設定情報をこのファイルに記述します。 
 
@@ -82,8 +82,8 @@ TiddlyServer に対応していない TiddlyWiki Classic ファイルの自動�
 
 1.   TiddlyServer を起動するには、コマンドプロンプトで `node server.js`を入力するか、エクスプローラで`start.cmd`をダブルクリックします。このとき`settings.json`に指定した host, port （上記の例では 127.0.0.1:8080）でサーバーが起動します。
 ``` console
-C:\TWSVR\TiddlyServer-2.0.9>node server.js
-Settings file: C:\TWSVR\TiddlyServer-2.0.9\settings.json
+C:\TWSVR\TiddlyServer-2.0.11>node server.js
+Settings file: C:\TWSVR\TiddlyServer-2.0.11\settings.json
 Open your browser and type in one of the following:
 127.0.0.1:8080
 ```
